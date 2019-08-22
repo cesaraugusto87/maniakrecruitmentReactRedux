@@ -1,0 +1,111 @@
+.homeTitle {
+    display: inline-block;
+    background-color: #071eb3;
+    margin-top: 120px;
+    height: 56px;
+}
+
+.homeTitle h1 {
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.11;
+    letter-spacing: 0.77px;
+    color: #ffffff;
+    margin-top: 8px;
+}
+
+.testimonialRectangle {
+    margin-top: 88px;
+    width: 95%;
+    height: 254px;
+    background-color: #ffffff;
+}
+
+.leftSide {
+    float: left;
+}
+
+.rightSide {
+    float: right;
+}
+
+.testimonialRectangle h1 {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #161616;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.testimonialRectangle h4 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #a5a5a5;
+    margin-top: -14px;
+    padding-left: 32px;
+}
+
+.testimonialRectangle p {
+    height: 190px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #161616;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.totalRectangle {
+    display: inline-flex;
+    width: 120px;
+    height: 56px;
+    background-color: #071eb3;
+}
+
+.totalRectangle a {
+    font-family: 'CormorantGaramond';
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.69px;
+    color: #ffffff !important;
+    margin: auto;
+}
+
+.actionRectangle {
+    margin-left: 1px;
+    display: inline-flex;
+    width: 56px;
+    height: 56px;
+    background-color: #071eb3;
+    cursor: pointer;
+}
+
+.actionRectangle a {
+    margin: auto;
+    font-size: 20px;
+    color: #ffffff !important;
+}
+
+.flex-row-reverse {
+    margin-top: -28px;
+}

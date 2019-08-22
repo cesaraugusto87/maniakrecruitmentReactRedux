@@ -1,0 +1,40 @@
+.nav-link {
+    font-family: Roboto, serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    height: 64px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #071eb3;
+    padding-top: 24px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.navbar {
+    padding-left: 11%;
+    padding-right: 11%;
+    width: 100%;
+    height: 64px;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.active {
+    background-color: #071eb3;
+    width: auto;
+    height: 4px;
+}
+
+.navbar-brand img{
+    width: 133px;
+    height: 26px;
+    object-fit: contain;
+}
