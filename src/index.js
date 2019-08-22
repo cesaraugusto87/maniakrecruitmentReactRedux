@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { createStore, applyMiddleware, combineReducers } from 'redux'
 import { connectRouter, ConnectedRouter } from 'connected-react-router'
+import { composeWithDevTools } from 'redux-devtools-extension'
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { logger } from 'redux-logger'
@@ -17,7 +18,10 @@ const rootReducer = combineReducers({
   router: connectRouter(history),
 })
 
-const store = createStore(connectRouter(history)(rootReducer), applyMiddleware(thunk, logger))
+const store = createStore(
+  connectRouter(history)(rootReducer),
+  composeWithDevTools(applyMiddleware(thunk, logger))
+)
 
 render(
   <Provider store={store}>
