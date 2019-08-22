@@ -20,8 +20,8 @@
 .testimonialRectangle {
     margin-top: 88px;
     width: 95%;
-    height: 254px;
     background-color: #ffffff;
+    margin-left: 0px;
 }
 
 .leftSide {
@@ -59,7 +59,6 @@
 }
 
 .testimonialRectangle p {
-    height: 190px;
     font-family: 'Roboto';
     font-size: 24px;
     font-weight: bold;
@@ -70,6 +69,7 @@
     color: #161616;
     padding-top: 32px;
     padding-left: 32px;
+    padding-bottom: 18px;
 }
 
 .totalRectangle {

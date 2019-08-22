@@ -8,20 +8,16 @@ import { logger } from 'redux-logger'
 import reducer from './reducers'
 import './css/styles.css'
 import * as History from 'history'
-import App from "./components/App"
+import App from './components/App'
 
 export const history = History.createBrowserHistory()
 
 const rootReducer = combineReducers({
   reducer,
   router: connectRouter(history),
-});
+})
 
-const store = createStore(
-  connectRouter(history)(rootReducer),
-  applyMiddleware(thunk, logger)
-
-)
+const store = createStore(connectRouter(history)(rootReducer), applyMiddleware(thunk, logger))
 
 render(
   <Provider store={store}>
