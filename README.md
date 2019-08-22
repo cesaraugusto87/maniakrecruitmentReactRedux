@@ -4,8 +4,8 @@ Simple React-Redux example with async/sync actions using Redux Thunk middleware
 ### Usage
 
 ```
-git clone https://github.com/cesaraugusto87/maniakRecruitmentTest.git
-cd maniakRecruitmentTest 
+git clone https://github.com/cesaraugusto87/maniakrecruitmentReactRedux.git
+cd maniakrecruitmentReactRedux 
 npm install
 npm start
 open http://localhost:8080  (should start automatically )
